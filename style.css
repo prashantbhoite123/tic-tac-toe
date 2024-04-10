@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+
+.resettext {
+  font-size: 6vw;
+  color: white;
+  font-style: italic;
+}
+
+.msg {
+  font-size: 3vw;
+  color: #fff;
+}
+.new-game {
+  height: 3vw;
+  width: 9vw;
+  background-color: #ff5e5e;
+  color: #fff;
+  font-size: 1vw;
+  border-radius: 1vw;
+}
+
+
+  
+
+.tik-heading {
+  color: #b61053;
+  font-size: 6.5vmin;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  /* height: 70vh; */
+  margin-top: 5vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5vmin;
+}
+
+.box {
+  width: 16vmin;
+  height: 16vmin;
+  background-color: #240227;
+  border: none;
+  color: #fff;
+  font-size: 4vw;
+  border-radius: 1vw;
+  box-shadow: 0px 0px 4px 4px white;
+}
+/* .hide {
+  display: none;
+} */
+#resetbtn {
+  height: 3vw;
+  width: 9vw;
+  background-color: #ff5e5e;
+  color: #fff;
+  font-size: 1vw;
+  border-radius: 1vw;
+  /* margin-bottom: 30vw; */
+  margin-left: 25vw;
+}
+
+.msg-container {
+display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #74c9a7;
+}
+
+.hide {
+display: none;
+}
+
+.tiktoccontent {
+  height: 46vmax;
+  background-color:  #74c9a7;;
+}
