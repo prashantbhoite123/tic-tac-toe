@@ -1,40 +1,39 @@
-@media (max-width :700px) {
-.tik-heading {
-  color: #b61053;
-  font-size: 10vw;
-  font-weight: 600;
-  margin-top: 10vw;
-
-}
-.tiktoccontent{
-  height: 100vh;
-}
-.container{
-  width: 100%;
-  height: 80vmin;
-}
-.game  {
-  height: 70vmin;
-  width: 100%;
-}
-.box{
-  width: 25vw;
-  height: 25vw;
-  font-size: 8vw;
-}
-#resetbtn{
-  height: 11vw;
-  width: 30vw;
-  font-size: 4vw;
-  margin-top: 21vw;
-}
-.new-game {
+@media (max-width: 700px) {
+  .tik-heading {
+    color: #b61053;
+    font-size: 10vw;
+    font-weight: 600;
+    margin-top: 10vw;
+  }
+  .tiktoccontent {
+    height: 100vh;
+  }
+  .container {
+    width: 100%;
+    height: 80vmin;
+  }
+  .game {
+    height: 70vmin;
+    width: 100%;
+  }
+  .box {
+    width: 25vw;
+    height: 25vw;
+    font-size: 8vw;
+  }
+  #resetbtn {
     height: 11vw;
-  width: 30vw;
-  font-size: 4vw;   
-  margin-top: 3vw;
-}
-.msg {
-font-size: 6vw;
-}
+    width: 30vw;
+    font-size: 4vw;
+    margin-top: 21vw;
+  }
+  .new-game {
+    height: 11vw;
+    width: 30vw;
+    font-size: 4vw;
+    margin-top: 4vw;
+  }
+  .msg {
+    font-size: 6vw;
+  }
 }
